@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Kanit:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
 
 body {
-  background-color: bisque;
+  background-color: rgb(0, 25, 61);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,25 +12,126 @@ nav {
   display: flex;
   align-content: center;
   justify-content: center;
-  background-color: burlywood;
-  border-radius: 10px;
+  background-color: rgb(247, 226, 200);
+  border-radius: 10px 10px 0 0;
   padding: 18px;
+  padding-bottom: 0;
+}
+
+main {
+  width: 650px;
+  height: 700px;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+  padding: 18px;
+}
+
+.player-button {
+  justify-content: center;
+  align-self: center;
+  margin-top: 20px;
 }
 
 .nav--title {
   font-family: Kanit, sans-serif;
   font-size: 64px;
   font-weight: 600;
-  color: rgb(58, 58, 58);
+  color: rgb(26, 25, 25);
   margin-top: 16px;
   margin-left: 25px;
 }
 
 .baseball {
-  width: 15%;
+  width: 100px;
+  height: 100px;
   margin-left: 20px;
+  margin-top: 20px;
 }
 
 .mlb-logo {
-  width: 25%;
+  width: 150px;
+}
+
+.desc {
+  font-family: Kanit, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: aliceblue;
+  margin-left: 12%;
+  margin-right: 12%;
+  background-color: rgb(240, 61, 61);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.get-player {
+  font-family: Kanit, sans-serif;
+  font-size: 16px;
+  color: aliceblue;
+  width: 135px;
+  height: 55px;
+  background-color: rgb(240, 61, 61);
+  border-radius: 10px;
+}
+
+.get-player:hover {
+  transition: 0.2s;
+  background-color: rgb(133, 30, 30);
+  box-shadow: 0 10px 25px rgba(255, 32, 32, 0.4);
+}
+
+span {
+  font-family: Kanit, sans-serif;
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(240, 61, 61);
+  border-radius: 10px;
+  margin-top: 35px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+}
+
+.seperator {
+  display: flex;
+  flex-direction: column;
+  -webkit-text-fill-color: rgb(32, 7, 7);
+}
+
+.guess-player {
+  font-family: Kanit, sans-serif;
+  font-size: 16px;
+  color: aliceblue;
+  width: 65px;
+  height: 35px;
+  background-color: rgb(240, 61, 61);
+  border-radius: 10px;
+}
+
+.guess-player:hover {
+  transition: 0.2s;
+  background-color: rgb(133, 30, 30);
+  box-shadow: 0 10px 25px rgba(255, 32, 32, 0.4);
+}
+
+.guess-div {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+input {
+  margin-right: 10px;
+  height: 25px;
+  border-radius: 10px;
 }

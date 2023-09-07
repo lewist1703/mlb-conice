@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Kanit:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+body {
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav {
+  width: 650px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: burlywood;
+  border-radius: 10px;
+  padding: 18px;
+}
+
+.nav--title {
+  font-family: Kanit, sans-serif;
+  font-size: 64px;
+  font-weight: 600;
+  color: rgb(58, 58, 58);
+  margin-top: 16px;
+  margin-left: 25px;
+}
+
+.baseball {
+  width: 15%;
+  margin-left: 20px;
+}
+
+.mlb-logo {
+  width: 25%;
+}
